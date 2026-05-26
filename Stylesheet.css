@@ -5,6 +5,8 @@
 
 
 body {color:blue;}
+
+img{align-content: center;}
 /*change font size*/
 p{font-size: 20px; font-style: italic;font-family: arial}
 
@@ -13,8 +15,19 @@ p{font-size: 20px; font-style: italic;font-family: arial}
 h1, h2 {font-family: "Impact"; font-style: italic;font-size:40}
     /*This text is in italic Impact font*/
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: inline-block; /* Needed for transform to work smoothly */
+    transition: transform 0.3s ease;
+}
 
-
+a:hover {
+    transform: scale(1.3); /* Magnifies text by 30% */
+}
+footer {font-family: "Impact"; font-style: italic;font-size:40}
+/*change font type*/
 
 body {
     background-color: #f5deb3; /* Change this to any color */
