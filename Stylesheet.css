@@ -1,0 +1,23 @@
+/*CSS Style Sheet*/
+
+
+/*change font color*/
+
+
+body {color:blue;}
+/*change font size*/
+p{font-size: 20px; font-style: italic;font-family: arial}
+
+/*change font type*/
+
+h1, h2 {font-family: "Impact"; font-style: italic;font-size:40}
+    /*This text is in italic Impact font*/
+
+
+
+
+body {
+    background-color: #f5deb3; /* Change this to any color */
+    margin: 0;
+    padding: 0;
+    height: 100%;}
